@@ -1,0 +1,185 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.container
+{
+	width:1140px;
+	margin: 0 auto;
+}
+.head
+{
+	width: 100%;
+	padding: 10px 0;
+	border:1px solid #d9d9d9;
+}
+
+.heading
+{
+	display: flex;
+	justify-content: space-between;
+}
+.list ul li
+{
+	list-style: none;
+	margin-left: 30px;
+	display: inline-block;
+	line-height: 30px;
+}
+a
+{
+	text-decoration: none;
+}
+.list ul li a
+{
+	font-family: 'Open Sans', sans-serif;
+	color:#5c5c5c;
+	font-size: 14px;
+	font-weight: 400;
+}
+.banner
+{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+.banner-content h1
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 54px;
+	color: #0f2656;
+}
+.banner-content h1 span
+{
+	color:#0A8DFF; 
+}
+.banner-content p
+{
+	font-family: 'Open Sans', sans-serif;
+	color:#5c5c5c;
+	font-size: 14px;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+.middle
+{
+	width: 100%;
+	padding:40px 0;
+
+}
+.left
+{
+	display: flex;
+
+}
+.a-left,.a-right
+{
+	flex-basis: 50%;
+}
+.a-left
+{
+	text-align: right;
+	margin-right: 20px;
+}
+.a-left h2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42px;
+	color:#f15767;
+	margin-bottom: 10px;
+}
+.a-left p
+{
+	color:#5c5c5c;
+	font-size: 16pxwidth: 60%;
+	
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.a-right
+{
+	margin-left: 20px;
+}
+.a-right h2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42px;
+	color:#0f2656;
+	
+}
+.last
+{
+	width: 100%;
+	padding: 30px 0;
+}
+.left-element
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.pink
+{
+	background:#fdebed;
+}
+.green
+{
+	background:#EBF9F4;
+}
+.yellow
+{
+	background:#FFF7E8;
+}
+.service
+{
+	margin: 15px;
+	border-radius: 4px;
+	
+}
+.service div
+{
+	padding: 22px 13px;
+}
+.service h3
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:#0f2656;
+	margin-bottom: 10px;
+	
+}
+.service p
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color:#5c5c5c;
+	line-height: 1.2;
+}
+.green img,.yellow img
+{
+	margin-bottom: 20px;
+}
+footer
+{
+	width: 100%;
+	background-color: #008aff;
+	padding: 20px 0px;
+	text-align: center;
+
+
+}
+footer p
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color:#8BC1FF;
+	line-height: 1.2;
+}
+footer p span
+{
+	color: #FFFCFF;
+	font-weight: 500;
+}
